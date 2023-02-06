@@ -1,0 +1,131 @@
+/* 
+
+--- 01 TYPOGRAPHY SYSTEM
+
+- FONT SIZE SYSTEM (px)
+  10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+
+
+- Font Weights
+  
+
+- Line heights
+  
+
+- Letter spacing
+   
+
+--- 02 Colors
+
+  -primary:#0e1133, #ff3e66
+  -Tints: 
+  -Shades: 
+  -Accents: 
+  -Greys:#eef1f6
+  
+ 
+
+---03 Shadows
+
+
+
+---04 Border Radius
+-50px
+-50%
+-8px
+
+--- 05 White Space
+
+- SPACING SYSTEM (px)
+  2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+
+
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  line-height: 1;
+  font-weight: 400;
+  color: #0e1133;
+}
+
+/* ****************************** */
+/* reusable-classes */
+/* ****************************** */
+
+.container {
+  max-width: 150rem;
+  padding: 0 9.6rem;
+  margin: 0 auto;
+}
+
+.grid {
+  display: grid;
+}
+
+.grid--2--cols {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.grid--4--cols {
+  grid-template-columns: 3fr 1fr 1fr 3fr;
+}
+
+.component-title {
+  color: #ea4d89;
+  margin-bottom: 1.8rem;
+}
+
+.component-desc {
+  font-size: 5.2rem;
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: 1.8rem;
+}
+
+.component-sub-desc {
+  font-size: 2.1rem;
+  color: #565870;
+  line-height: 1.6;
+  margin-bottom: 4rem;
+}
+
+.section-header {
+  font-size: 4.4rem;
+  margin-bottom: 2.4rem;
+}
+
+.section-desc {
+  color: #565870;
+  font-size: 1.8rem;
+}
+
+.btn-genral:link,
+.btn-genral:visited {
+  display: inline-block;
+  text-decoration: none;
+  color: #0e1133;
+  font-size: 1.6rem;
+  font-weight: 500;
+  border: 2px solid #cfcfd6;
+  border-radius: 50px;
+  padding: 1.6rem 3.2rem;
+  transition: all 0.5s;
+}
+
+.btn-genral:hover,
+.btn-genral:active {
+  background-color: #0e1133;
+  color: #cfcfd6;
+  border: 2px solid #fff;
+}
