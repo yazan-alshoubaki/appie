@@ -239,4 +239,24 @@
   .video-slide {
     max-width: 80%;
   }
+
+  .testimonial-section {
+    padding: 3.2rem;
+  }
+
+  .testimonial-text {
+    font-size: 2rem;
+  }
+
+  .container {
+    padding: 0 4.8rem;
+  }
+
+  .download-btn-footer:link {
+    font-size: 1.4rem;
+  }
+
+  .footer-section {
+    padding-top: 9.6rem;
+  }
 }
